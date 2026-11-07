@@ -1,16 +1,6 @@
 <!--
   Mariyam Chemrah — GitHub profile README
-
 -->
-
-<a href="https://www.mariyamchemrah.com/en/hire">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png">
-    <img src="assets/banner-dark.png" width="100%" alt="Mariyam Chemrah — Senior Full-Stack Engineer. Deep roots in the back end, a canopy in React.">
-  </picture>
-</a>
-
 <p align="center">
   <a href="https://www.mariyamchemrah.com/en/hire"><img src="https://img.shields.io/badge/Open%20to%20work-remote%20%26%20international-8EE08A?style=for-the-badge&labelColor=0D1411" alt="Open to work: remote and international"></a>
   <img src="https://img.shields.io/badge/Based%20in-Casablanca%20·%20EU%20hours-C9E26A?style=for-the-badge&labelColor=0D1411" alt="Based in Casablanca, overlaps EU hours">
