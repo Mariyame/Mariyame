@@ -75,11 +75,15 @@ const mariyam = {
       <img src="https://img.shields.io/badge/Next.js-C9E26A?style=flat-square&logo=nextdotjs&logoColor=14281D" alt="Next.js">
        <a href="https://rivulet-three.vercel.app"><b>Live site →</b></a>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+   <td width="50%" valign="top">
       <h3><a href="https://github.com/Mariyame/mywall.fr">My Wall</a></h3>
       <sub><code>E-COMMERCE · MARKETPLACE</code></sub>
-      <p>Open marketplace where independent artists upload their work and sell it as wall art, home decor and lifestyle products — with PayPal and CMI payments.</p>
-      <img src="https://img.shields.io/badge/Laravel-0D1411?style=flat-square&logo=laravel&logoColor=8EE08A" alt="Laravel"> <img src="https://img.shields.io/badge/PayPal-0D1411?style=flat-square&logo=paypal&logoColor=8EE08A" alt="PayPal"> <img src="https://img.shields.io/badge/CMI-0D1411?style=flat-square" alt="CMI payment gateway">
+      <p>Open marketplace where independent artists upload their work and sell it as wall art, home decor and lifestyle products — with PayPal   and CMI payments.</p>
+      <img src="https://img.shields.io/badge/Laravel-0D1411?style=flat-square&logo=laravel&logoColor=8EE08A" alt="Laravel"> 
+      <img src="https://img.shields.io/badge/PayPal-0D1411?style=flat-square&logo=paypal&logoColor=8EE08A" alt="PayPal"> 
+      <img src="https://img.shields.io/badge/CMI-0D1411?style=flat-square" alt="CMI payment gateway">
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://www.autodealersdigital.com/">Dealer Site Builder</a></h3>
