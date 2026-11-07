@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="48" viewBox="0 0 1280 48" role="img" aria-label="Divider">
+  <style>
+    .vine{fill:none;stroke:#2F6B3F;stroke-width:2.5;stroke-linecap:round;stroke-dasharray:1400;stroke-dashoffset:1400;animation:grow 2.4s cubic-bezier(.6,.1,.2,1) forwards}
+    .leaf{fill:#2F6B3F;transform-box:fill-box;transform-origin:0% 100%;transform:scale(0);animation:pop .6s cubic-bezier(.3,1.4,.5,1) forwards}
+    .glow{fill:#8EE08A}
+    .fly{fill:#C9E26A;animation:blink 2.6s ease-in-out infinite}
+    @keyframes grow{to{stroke-dashoffset:0}}
+    @keyframes pop{to{transform:scale(1)}}
+    @keyframes blink{0%,100%{opacity:.15}50%{opacity:1}}
+    @media (prefers-reduced-motion: reduce){.vine{stroke-dashoffset:0;animation:none}.leaf{transform:scale(1);animation:none}.fly{animation:none}}
+  </style>
+  <path class="vine" d="M0 26 C120 14 200 38 320 26 S520 12 640 26 S840 40 960 26 S1160 12 1280 26"/>
+  <path class="leaf" style="animation-delay:.5s" d="M220 27 C226 15 238 10 252 11 C247 22 236 28 220 27 Z"/>
+  <path class="leaf" style="animation-delay:.9s" d="M470 20 C464 9 452 5 438 7 C444 17 455 22 470 20 Z"/>
+  <path class="leaf" style="animation-delay:1.3s" d="M760 31 C766 19 778 14 792 15 C787 26 776 32 760 31 Z"/>
+  <path class="leaf" style="animation-delay:1.7s" d="M1060 20 C1054 9 1042 5 1028 7 C1034 17 1045 22 1060 20 Z"/>
+  <circle class="glow" r="4">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M0 26 C120 14 200 38 320 26 S520 12 640 26 S840 40 960 26 S1160 12 1280 26"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="7s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="glow" r="3">
+    <animateMotion dur="7s" begin="3.5s" repeatCount="indefinite" path="M0 26 C120 14 200 38 320 26 S520 12 640 26 S840 40 960 26 S1160 12 1280 26"/>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.1;.9;1" dur="7s" begin="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="fly" cx="130" cy="8" r="2.5"/>
+  <circle class="fly" style="animation-delay:.8s" cx="590" cy="42" r="2"/>
+  <circle class="fly" style="animation-delay:1.6s" cx="880" cy="6" r="2.5"/>
+  <circle class="fly" style="animation-delay:.4s" cx="1190" cy="40" r="2"/>
+</svg>
