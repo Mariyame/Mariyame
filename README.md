@@ -65,6 +65,16 @@ const mariyam = {
 
 <table>
   <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/Mariyame/rivulet">Rivulet</a></h3>
+      <sub><code>PRODUCTIVITY · GAMIFICATION · SIDE PROJECT</code></sub>
+      <p>A gamified app for tasks, goals and habits — progress you can see and rewards that keep you coming back. Built around a human idea: people aren’t robots. <b>Custom routine exceptions</b> let you pause for travel, events or simply a slower week without breaking your streak or your motivation.</p>
+      <img src="https://img.shields.io/badge/Status-in%20progress-C9E26A?style=flat-square&labelColor=0D1411" alt="Status: in progress">
+      <img src="https://img.shields.io/badge/Free-for%20everyone-8EE08A?style=flat-square&labelColor=0D1411" alt="Free for everyone">
+      <img src="https://img.shields.io/badge/Solo-design%20%2B%20code-E6EDE4?style=flat-square&labelColor=0D1411" alt="Solo: design and code">
+      <img src="https://img.shields.io/badge/Next.js-C9E26A?style=flat-square&logo=nextdotjs&logoColor=14281D" alt="Next.js">
+       <a href="https://rivulet-three.vercel.app"><b>Live site →</b></a>
+    </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/Mariyame/mywall.fr">My Wall</a></h3>
       <sub><code>E-COMMERCE · MARKETPLACE</code></sub>
